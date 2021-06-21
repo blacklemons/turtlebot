@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+	<group ns="Free">
+		<include file="$(find moter_pkg)/launch/moter.launch" />
+		<include file="$(find hope)/launch/LD.launch" />
+		<include file="$(find park)/launch/park_line.launch" />
+		<include file="$(find park_node)/launch/parking.launch" />
+	</group>
+</launch>

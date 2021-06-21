@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>lidar_sub</name>
+  <version>0.0.0</version>
+  <description>The lidarSub package</description>
+
+
+  <maintainer email="lgy5004@naver.com">ggg</maintainer>
+ 
+  <!--만든부분-->
+  <build_depend>libpcl-all-dev</build_depend>
+  <exec_depend>libpcl-all</exec_depend>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>messge_generation</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  
+  <build_export_depend>messge_generation</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>pcl_ros</build_export_depend>
+
+
+  
+  <exec_depend>messge_generation</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+
+
+ 
+  <export>
+  
+
+  </export>
+</package>

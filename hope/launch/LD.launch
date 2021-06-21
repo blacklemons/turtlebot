@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>	
+	<node name="sub_node"
+	      pkg="hope"
+	      type="sub_node"
+	      required="true"
+	      output="screen"/>
+	      
+	<node name="traffic"
+	      pkg="hope"
+	      type="traffic"
+	      required="true"
+	      output="screen"/>
+	      
+	<node name="feature"
+	      pkg="hope"
+	      type="feature"
+	      required="true"
+	      output="screen"/>
+</launch>

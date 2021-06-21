@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+	<node name="sub_node"
+	      pkg="hope"
+	      type="sub_node"
+	      required="true"
+	      output="screen"/>
+	      
+	<node name="sub_node"
+	      pkg="hope"
+	      type="sub_node"
+	      required="true"
+	      output="screen"/>
+</launch>

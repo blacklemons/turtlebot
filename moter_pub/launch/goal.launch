@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>	
+	<node name="moter_publisher"
+	      pkg="moter_pub"
+	      type="moter_publisher"
+	      required="true"
+	      output="screen"/>
+</launch>
